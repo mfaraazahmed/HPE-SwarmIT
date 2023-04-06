@@ -1,0 +1,52 @@
+#parent-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
+}
+
+#parent-container .form-section{
+    width: 68vw !important;
+}
+
+#carouselExampleDark{
+    width: 32vw;
+    height: 97vh;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+
+#carouselExampleDark .carousal-image{
+    width: 18.75rem;
+    height: 18.75rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+#parent-container .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;  
+    display: flex;
+    align-items: center;
+    color: #235789;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 12.9375rem;
+}
+
+.form-section .logo-title{
+    text-align: center;
+}
+
+.input-boxes form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
