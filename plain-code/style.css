@@ -40,13 +40,104 @@
     margin-top: 12.9375rem;
 }
 
+.form-section{
+    padding-left: 11.625rem;
+}
+
 .form-section .logo-title{
     text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #235789;
+    margin-bottom: 2.125rem;
 }
 
 .input-boxes form{
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.input-boxes form label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    display: flex;
+    align-items: center;
+    color: #235789;
+    margin-bottom: 0.25rem;
+}
+
+.input-boxes form input{
+    background: #FFFFFF;
+    border: 1.5px solid #235789;
+    border-radius: 12px;
+    height: 2.375rem;
+    margin-bottom: 0.75rem;
+}
+
+.col-part input{
+    width: 30rem;
+    display: block;
+
+}
+
+.input-boxes .col-part-two{
+    justify-content: space-between;
+    width: 30rem;
+}
+
+.input-boxes .col-part-two input{
+    width: 14rem;
+} 
+
+.input-boxes form .action-btn{
+    width: 30rem;
+    height: 2.375rem;
+    background: #235789;
+    border: 2px solid #235789;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+.input-boxes form .action-btn:hover{
+    background: #fff;
+    border: 2px solid #235789;
+    color: #235789;
+}
+
+.form-section .mid-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    color: #235789;
+    width: 30rem;
+    margin-top: 1rem;
+}
+
+button.action-btn{
+    width: 30rem;
+    height: 2.375rem;
+    background: #9bc53d;
+    border: 2px solid #9bc53d;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+button.action-btn:hover{
+    background: #fff;
+    border: 2px solid #9bc53d;
+    color: #9bc53d;
 }
